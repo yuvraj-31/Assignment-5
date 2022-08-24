@@ -7,7 +7,7 @@ int main()
     printf("Enter the value of N\n");
     scanf("%d",&n);
     printf("the first %d odd natural numbers are:\n",n);
-    while(i<=n)
+    while(i<=2*n)
     {   if((i%2)!=0)
         {
           printf("%d\n",i);
