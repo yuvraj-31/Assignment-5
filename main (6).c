@@ -7,7 +7,7 @@ int main()
     printf("Enter the value of N\n");
     scanf("%d",&n);
     printf("the first %d even natural numbers are:\n",n);
-    while(i<=n)
+    while(i<=n*2)
     {   if((i%2)==0)
         {
           printf("%d\n",i);
